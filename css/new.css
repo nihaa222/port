@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Playfair Display", sans-serif;
+  background-color: #eeeff1;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  /* position: relative;*/
+}
+
+.logo {
+  display: flex;
+  /* align-items: center;*/
+}
+
+.logo-img1 {
+  height: 5.5rem;
+  position: fixed;
+  left: 2rem;
+  top: 1rem;
+}
+
+.myname {
+  align-self: center;
+  font-weight: 900;
+  font-size: 1.6rem;
+  color: #000;
+  position: fixed;
+  top: 2.8rem;
+  left: 9rem;
+}
+
+.Linktree {
+  color: brown;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  padding-top: 0.6rem;
+}
+
+.nav-element {
+  font-size: 1.4rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+
+.btn {
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: black;
+  text-decoration: none;
+}
+
+.btnstyle {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.section-hero {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 1rem 25rem 1rem 25rem;
+  margin-top: 10rem;
+  overflow: hidden;
+  margin-bottom: 10rem;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 1rem 25rem 1rem 25rem;
+  margin-top: 10rem;
+  overflow: hidden;
+  margin-bottom: 10rem;
+}
+
+.brief1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-bottom: 2rem;
+  word-spacing: 0.8rem;
+  gap: 0.4rem;
+}
+
+.brief2 {
+  font-size: 2rem;
+  color: #16111184;
+  line-height: 3rem;
+}
+
+.showcase {
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+/*section 2*/
+
+.original-documents {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 4rem;
+  /*max-width: 100%;*/
+}
+
+.document-1 {
+  /* background-color: red;*/
+  overflow: hidden;
+  height: 40rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0 2rem rgba(0, 0, 0, 0.3rem);
+}
+
+.original-documents2 {
+  display: flex;
+  gap: 4rem;
+  max-width: 100%;
+}
+.document-2 {
+  /*background-color: red;*/
+
+  height: 20rem;
+  border-radius: 0.9rem;
+  overflow: hidden;
+}
+
+/*section 3*/
+
+.profile {
+  width: 100%;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.myProfile {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.realimg {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.aboutMe {
+  font-size: 1.4rem;
+  color: #555;
+  word-spacing: 0.4rem;
+}
+
+.name {
+  font-size: 1.4rem;
+
+  margin-bottom: 0.9rem;
+  font-weight: 300;
+}
+
+.designation {
+  color: #555;
+  font-size: 2rem;
+}
+
+.yes {
+  display: grid;
+  grid-template-columns: calc(50% - 1.5rem) calc(50% - 1.5rem);
+  gap: 4rem;
+  overflow: hidden;
+  padding: 1rem;
+} /*.full {
+    background-color: red;
+    padding: 5.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Change the column widths to 1fr each (50% each) */
+/* gap: 3rem;
+    border-radius: 0.8rem;
+  }*/
+
+.full {
+  background-color: whitesmoke;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjusted to 50% with a 3rem gap */
+  gap: 1rem;
+  border-radius: 0.8rem;
+  border: 2px solid black;
+}
+
+/*.full{
+    background-color: red; 
+    padding: 5.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 3rem;
+    border-radius: 0.8rem;
+    
+}*/
+
+.ask {
+  font-size: 4rem;
+  width: 100%;
+}
+
+.put {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.text {
+  font-size: 3rem;
+}
+
+.enter {
+  padding: 2rem;
+  border-radius: 0.8rem;
+  border: 0 2px solid;
+  background-color: #fff;
+}
+
+input {
+  border: 2px solid;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(0, 0, 0, 0.048);
+}
+.enter2 {
+  padding: 3rem;
+  border-radius: 0.8rem;
+  border: 0 2px solid;
+}
+
+.submit {
+  margin-top: 1.4rem;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 1rem;
+  color: #fff;
+  background-color: #000;
+  font-size: 1.2rem;
+}
+
+.karo {
+  display: flex;
+  flex-direction: column;
+}
+
+.gridimg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+  object-fit: cover;
+}
+
+.gridimg:hover {
+  transform: scale(1.1);
+}
+
+.bubble {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.content {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+  color: #777;
+  font-size: 1rem;
+}
+
+.last {
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #777;
+}
+
+.container--1 {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 25rem 0 25rem;
+  margin-top: 10rem;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.lastlink1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+  position: fixed;
+  bottom: 3.6rem;
+  right: 1.8rem;
+}
+
+.lastlink2 {
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+  position: fixed;
+  bottom: 1rem;
+  right: 1.8rem;
+}
+
+/*.links {
+  display: flex;
+  flex-direction: column;
+}*/
+
+.mobile-nav {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 3.8rem;
+  width: 3.8rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+  font-weight: 900;
+  padding: 0;
+}
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Make sure the preloader is on top of other content */
+  animation: fadeOut 1s forewards;
+}
+
+/* Spinner Styles */
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear forwards, fadeOut 0.5s 1s forwards;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}

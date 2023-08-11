@@ -1,0 +1,274 @@
+@media (max-width: 110rem) {
+  .container {
+    padding: 1rem 20rem 1rem 20rem;
+  }
+}
+
+@media (max-width: 103rem) {
+  .container {
+    padding: 1rem 18rem 1rem 18rem;
+  }
+  .aboutMe {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 98rem) {
+  .full {
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .brief1 {
+    font-size: 4rem;
+  }
+
+  .brief2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 88em) {
+  .container {
+    padding: 1rem 12rem 1rem 12rem;
+  }
+}
+
+@media (max-width: 76em) {
+  .container {
+    padding: 1rem 10rem 1rem 10rem;
+  }
+}
+
+@media (max-width: 72em) {
+  .container {
+    padding: 1rem 8rem 1rem 8rem;
+  }
+
+  .aboutMe {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 68em) {
+  .brief1 {
+    font-size: 3.8rem;
+  }
+
+  .brief2 {
+    font-size: 1.6rem;
+  }
+
+  .container {
+    padding: 1rem 6rem 1rem 6rem;
+  }
+
+  /*MOBILE NAVIGATION*/
+  .mobile-nav {
+    display: block;
+  }
+
+  .nav {
+    background-color: rgba(255, 255, 255, 0.96);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.8rem;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+    transition: all 0.3s;
+  }
+
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-element {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 64em) {
+  .container {
+    padding: 1rem 5rem 1rem 5rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .full {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    grid-template-columns: 1fr;
+  }
+
+  .original-documents {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .container .yes {
+    gap: 2rem;
+  }
+
+  .karo {
+    margin-top: 2rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .myProfile {
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 56em) {
+  .brief1 {
+    font-size: 3.6rem;
+  }
+
+  .brief2 {
+    font-size: 1.3rem;
+  }
+
+  .aboutMe {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 53em) {
+  .original-documents {
+    grid-template-columns: 1fr;
+    gap: 2.3rem;
+  }
+}
+
+@media (max-width: 47em) {
+  .brief1 {
+    font-size: 3.2rem;
+  }
+
+  .brief2 {
+    font-size: 1.2rem;
+    word-spacing: 0.3rem;
+  }
+}
+
+@media (max-width: 43em) {
+  .container {
+    padding: 1rem 4rem 1rem 4rem;
+  }
+  .document1 {
+    height: 20rem;
+  }
+
+  .brief1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 41em) {
+  .container {
+    padding: 1rem 3rem 1rem 3rem;
+  }
+}
+
+@media (max-width: 39em) {
+  .container {
+    padding: 1rem 3rem 1rem 3rem;
+  }
+
+  .full {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .myProfile {
+    display: grid;
+  }
+
+  .name {
+    margin-top: 0.8rem;
+  }
+
+  .enter {
+    padding: 1rem;
+  }
+
+  .enter2 {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 36em) {
+  .brief1 {
+    font-size: 2rem;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+    font-weight: 1500;
+  }
+  .full {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .bubble {
+    gap: 1rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutMe {
+    font-size: 1.2rem;
+  }
+
+  .myprofile {
+    gap: 4rem;
+  }
+
+  .karo {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .yes {
+    width: 100%;
+  }
+}
+@media (max-width: 27em) {
+  .yes {
+    grid-template-columns: 1fr;
+  }
+
+  .document-1 {
+    height: 20rem;
+  }
+
+  .bubble {
+    gap: 1rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+  }
+}
+
+@media (max-width: 25em) {
+  .yes {
+    grid-template-columns: 1fr;
+  }
+}
